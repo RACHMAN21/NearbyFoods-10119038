@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">NearbyFoods 10119038</string>
+    <string name="logo_splash_screen">Logo Splash Screen</string>
+    <string name="nearbyfoods">NearbyFoods</string>
+    <string name="temukan_lokasi_makan_di_tempat_anda">Temukan lokasi makan di Tempat Anda.</string>
+    <string name="lanjutkan">Lanjutkan</string>
+
+    <!-- judul di viewpager -->
+    <string name="judul_1">Bingung milih makanan dimana?</string>
+    <string name="judul_2">Mencarikan tempat makan disekitar anda!</string>
+    <string name="judul_3">Menemukan tempat makan terbaik!</string>
+
+    <!-- deskripsi di viewpager -->
+    <string name="desk_1">NearbyFoods akan mencarikan lokasi tempat makan yang pas untuk kamu!</string>
+    <string name="desk_2">NearbyFoods akan mencarikan lokasi tempat makan terdekat untuk kamu!</string>
+    <string name="desk_3">NearbyFoods memberikan lokasi tempat makan terbaik disekitar kamu!</string>
+
+    <!-- string fragment_profile.xml -->
+    <string name="ini_profile_fragment">Ini Profile Fragment</string>
+    <string name="ini_about_fragment">Ini About Fragment</string>
+
+    <!-- string bottom_nav.xml -->
+    <string name="lbl_maps">Lokasi</string>
+    <string name="lbl_about">Tentang App</string>
+    <string name="lbl_profile">Profil</string>
+
+    <!-- string fragment_profile.xml -->
+    <string name="profil_mahasiswa">Profil Mahasiswa</string>
+    <string name="nim_10119038">NIM : 10119038</string>
+    <string name="nama_rachman_aldiansyah">Nama : Rachman Aldiansyah</string>
+    <string name="kelas_if_1">Kelas : IF-1</string>
+    <string name="email_rachman_10119038_mahasiswa_unikom_ac_id">Email : rachman.10119038@mahasiswa.unikom.ac.id</string>
+
+    <!-- string fragment_about.xml -->
+    <string name="nearby_foods">NearbyFoods</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="versi_aplikasi_v1_0">Versi Aplikasi: v1.0</string>
+    <string name="dibuat_oleh_rachman_aldiansyah">Dibuat Oleh Rachman Aldiansyah</string>
+    <string name="tahun_2022">Tahun 2022</string>
+</resources>

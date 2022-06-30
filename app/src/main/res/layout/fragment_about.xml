@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AboutFragment">
+
+    <TextView
+        android:id="@+id/titleabout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nearby_foods"
+        android:textSize="35sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/red"/>
+
+    <ImageView
+        android:id="@+id/aboutlogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/titleabout"
+        android:src="@drawable/nearby_food"/>
+
+    <TextView
+        android:id="@+id/tentangapp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tentang_aplikasi"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/grey"
+        android:layout_below="@+id/aboutlogo"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tentangapp">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/versi_aplikasi_v1_0"
+            android:textColor="@color/grey"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/dibuat_oleh_rachman_aldiansyah"
+            android:textColor="@color/grey"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/tahun_2022"
+            android:textColor="@color/grey"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center"/>
+    </LinearLayout>
+</RelativeLayout>
